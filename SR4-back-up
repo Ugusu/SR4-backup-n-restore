@@ -1,11 +1,15 @@
 #!/bin/bash
 
-rm -rf ~/.local/share/Steam/steamapps/common/Sunrider\ 4\ The\ Captain\'s\ Return/backup &&
+GAME_FOLDER=$(find ~/ -name "Sunrider\ 4\ The\ Captain\'s\ Return" -path "*Steam/steamapps/common/*" -type d -print -quit)
+PROGRESS_FOLDER=$(find ~/ -name "Sunrider_4_The_Captains_Return" -path "*Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/*" -type d -print -quit)
+BACKUP_FOLDER="$GAME_FOLDER/backup/"
 
-mkdir ~/.local/share/Steam/steamapps/common/Sunrider\ 4\ The\ Captain\'s\ Return/backup &&
+rm -rf "$GAME_FOLDER/backup" &&
 
-cp -r ~/.local/share/Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/Sunrider_4_The_Captains_Return/saves ~/.local/share/Steam/steamapps/common/Sunrider\ 4\ The\ Captain\'s\ Return/backup/saves &&
+mkdir "$GAME_FOLDER/backup" &&
 
-cp ~/.local/share/Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/Sunrider_4_The_Captains_Return/seen.txt ~/.local/share/Steam/steamapps/common/Sunrider\ 4\ The\ Captain\'s\ Return/backup/seen.txt &&
+cp -r "$PROGRESS_FOLDER/saves" "$BACKUP_FOLDER/saves" &&
 
-cp ~/.local/share/Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/Sunrider_4_The_Captains_Return/init.ini ~/.local/share/Steam/steamapps/common/Sunrider\ 4\ The\ Captain\'s\ Return/backup/init.ini
+cp "$PROGRESS_FOLDER/seen.txt" "$BACKUP_FOLDER/seen.txt" &&
+
+cp "$PROGRESS_FOLDER/init.ini" "$BACKUP_FOLDER/init.ini"
