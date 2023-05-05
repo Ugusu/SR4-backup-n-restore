@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cp -r ~/.local/share/Steam/steamapps/common/Sunrider\ 4\ The\ Captain\'s\ Return/backup/saves ~/.local/share/Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/Sunrider_4_The_Captains_Return/saves &&
+
+cp ~/.local/share/Steam/steamapps/common/Sunrider\ 4\ The\ Captain\'s\ Return/backup/seen.txt ~/.local/share/Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/Sunrider_4_The_Captains_Return/seen.txt &&
+
+cp ~/.local/share/Steam/steamapps/common/Sunrider\ 4\ The\ Captain\'s\ Return/backup/init.ini ~/.local/share/Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/Sunrider_4_The_Captains_Return/init.ini
