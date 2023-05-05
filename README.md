@@ -5,11 +5,11 @@ Download the repository, and run the scripts.
 
 They literally just copy the folders from
 ```
-[STEAM_PATH]/Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/Sunrider_4_The_Captains_Return/
+[STEAM_LOCATION]/Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/Sunrider_4_The_Captains_Return/
 ```
 to
 ```
-[STEAM_PATH]/Steam/steamapps/common/Sunrider 4 The Captain's Return/
+[STEAM_LOCATION]/Steam/steamapps/common/Sunrider 4 The Captain's Return/
 ```
 for back up, and vice versa for restore, you can do it manually.
 
