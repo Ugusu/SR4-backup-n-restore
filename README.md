@@ -19,4 +19,4 @@ $ chmod +x SR4-back-up
 $ chmod +x SR4-restore
 ```
 
-Was tested only on my Void-Linux machine, and where ```STEAM_LOCATION``` is ```~/.local/share```. In you case in might be different, but generally the script should be able to find the location. Notify me, if face any issues.
+Was tested only on my Void-Linux machine, and where ```STEAM_LOCATION``` is ```~/.local/share```. In you case it might be different, but generally the script should be able to find the location. Notify me, if face any issues.
