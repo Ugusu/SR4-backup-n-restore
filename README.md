@@ -3,13 +3,12 @@ Scripts to backup and restore Sunrider 4: The Captain's Return game progress on 
 
 Download the repository, and run the scripts.
 
-Make sure you have the following folders:
-
+They literally just copy the folders from
 ```
-~/.local/share/Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/Sunrider_4_The_Captains_Return/
+[STEAM_PATH]/Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/Sunrider_4_The_Captains_Return/
 ```
-and
+to
 ```
-~/.local/share/Steam/steamapps/common/Sunrider 4 The Captain's Return
+[STEAM_PATH]/Steam/steamapps/common/Sunrider 4 The Captain's Return/
 ```
- If the folders are in different place you can edit the scripts, and set the right folders. Also notify me, to come up with a solution for this too.
+for back up, and vice versa for restore, you can do it manually.
