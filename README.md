@@ -23,4 +23,4 @@ Was tested only on my Void-Linux machine, and where ```STEAM_LOCATION``` is ```~
 
 Click to download ZIP archive: https://github.com/Ugusu/SR4-backup-n-restore/archive/refs/heads/main.zip
 
-Clivk to download TAR archive: https://github.com/Ugusu/SR4-backup-n-restore/archive/refs/heads/main.tar.gz
+Click to download TAR archive: https://github.com/Ugusu/SR4-backup-n-restore/archive/refs/heads/main.tar.gz
