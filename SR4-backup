@@ -3,13 +3,15 @@
 GAME_FOLDER=$(find ~/ -name "Sunrider\ 4\ The\ Captain\'s\ Return" -path "*Steam/steamapps/common/*" -type d -print -quit)
 PROGRESS_FOLDER=$(find ~/ -name "Sunrider_4_The_Captains_Return" -path "*Steam/steamapps/compatdata/2251620/pfx/drive_c/users/steamuser/AppData/Local/*" -type d -print -quit)
 BACKUP_FOLDER="$GAME_FOLDER/backup/"
+DATE=$(date +"%Y-%m-%d-%s")
+BACKUP_FOLDER_BAK="$GAME_FOLDER/backup-bak_${DATE}"
 
-rm -rf "$GAME_FOLDER/backup" &&
+mv "$BACKUP_FOLDER" "$BACKUP_FOLDER_BAK"
 
-mkdir "$GAME_FOLDER/backup" &&
+mkdir "$BACKUP_FOLDER"
 
-cp -r "$PROGRESS_FOLDER/saves" "$BACKUP_FOLDER/saves" &&
+cp -r "$PROGRESS_FOLDER/saves" "$BACKUP_FOLDER/saves"
 
-cp "$PROGRESS_FOLDER/seen.txt" "$BACKUP_FOLDER/seen.txt" &&
+cp "$PROGRESS_FOLDER/seen.txt" "$BACKUP_FOLDER/seen.txt"
 
 cp "$PROGRESS_FOLDER/init.ini" "$BACKUP_FOLDER/init.ini"
