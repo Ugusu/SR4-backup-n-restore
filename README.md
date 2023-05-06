@@ -22,3 +22,5 @@ $ chmod +x SR4-restore
 Was tested only on my Void-Linux machine, and where ```STEAM_LOCATION``` is ```~/.local/share```. In you case it might be different, but generally the script should be able to find the location. Notify me, if face any issues.
 
 Click to download ZIP archive: https://github.com/Ugusu/SR4-backup-n-restore/archive/refs/heads/main.zip
+
+Click to download TAR archive: https://github.com/Ugusu/SR4-backup-n-restore/archive/refs/heads/main.tar.gz
