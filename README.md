@@ -15,7 +15,7 @@ for back up, and vice versa for restore, you can do it manually.
 
 To execute scripts, make them executable, with:
 ```
-$ chmod +x SR4-back-up
+$ chmod +x SR4-backup
 $ chmod +x SR4-restore
 ```
 
