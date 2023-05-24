@@ -10,8 +10,8 @@ mv "$BACKUP_FOLDER" "$BACKUP_FOLDER_BAK"
 
 mkdir "$BACKUP_FOLDER"
 
-cp -r "$PROGRESS_FOLDER/saves" "$BACKUP_FOLDER/saves"
+cp -r "$PROGRESS_FOLDER/saves" "$BACKUP_FOLDER/"
 
-cp "$PROGRESS_FOLDER/seen.txt" "$BACKUP_FOLDER/seen.txt"
+cp "$PROGRESS_FOLDER/seen.txt" "$BACKUP_FOLDER/"
 
-cp "$PROGRESS_FOLDER/init.ini" "$BACKUP_FOLDER/init.ini"
+cp "$PROGRESS_FOLDER/init.ini" "$BACKUP_FOLDER/"
